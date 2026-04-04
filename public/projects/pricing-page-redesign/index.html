@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Page UI UX Redesign | Rebecca Mak</title>
+    <meta
+      name="description"
+      content="Clarifying a complex pricing model through iterative UX design and testing for Starshipit's pricing page."
+    />
+    <link rel="icon" type="image/svg+xml" href="../../images/Favicon.svg" />
+    <link rel="apple-touch-icon" href="../../images/Favicon.svg" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body class="case-study-page">
+    <div class="page-shell">
+      <header class="case-study-header">
+        <a class="case-study-home" href="../../index.html#work">
+          <img src="../../images/projects/starshipit-branding.jpg" alt="Rebecca Mak" />
+          <span>Back to projects</span>
+        </a>
+        <a class="case-study-cta" href="mailto:rebeccaho1908@gmail.com">Get in touch</a>
+      </header>
+
+      <main class="case-study-main">
+        <section class="case-study-content">
+          <p class="case-study-kicker">UI / UX redesign project</p>
+          <h1 class="case-study-title">Pricing Page UI UX Redesign</h1>
+          <h2 class="case-study-summary-title">Summary</h2>
+          <div class="case-study-copy">
+            <p>Clarifying a complex pricing model through iterative UX design and testing.</p>
+          </div>
+          <div class="case-study-programs">
+            <span class="case-study-programs-label">Programs used:</span>
+            <div class="case-study-program-tags">
+              <span class="case-study-program-tag">v0</span>
+              <span class="case-study-program-tag">Figma</span>
+              <span class="case-study-program-tag">Hotjar</span>
+              <span class="case-study-program-tag">Google Analytics</span>
+              <span class="case-study-program-tag">AI assisted workflows</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-study-body">
+          <section>
+            <h2>Overview</h2>
+            <p><strong>Starshipit’s pricing model had evolved into a more complex structure,</strong> with multiple pricing tiers that needed to be communicated clearly to a wide range of prospective customers. The challenge was not just to present pricing accurately, but to help users understand the relationship between plans, shipment volumes, and next steps quickly enough to make a <strong>confident decision.</strong></p>
+            <p><strong>I led the end-to-end redesign of the pricing page,</strong> from research and problem framing through concept development, iteration, stakeholder alignment, developer handoff, QA, and post-launch refinement. The project focused on <strong>reducing confusion, improving plan discovery, and creating a pricing experience</strong> that better supported both usability and conversion goals.</p>
+          </section>
+        </section>
+
+        <section class="case-study-gallery">
+          <div class="case-study-gallery-row" style="--gallery-columns: 1;">
+            <figure><img src="../../images/projects/Pricing page/Pricing page_final result.jpg" alt="Pricing page redesign final result" /></figure>
+          </div>
+        </section>
+
+        <section class="case-study-body">
+          <section>
+            <h2>The Problem</h2>
+            <p><strong>Starshipit’s pricing model had become more complex,</strong> with multiple tiers that needed to be presented in a way that was clear, intuitive, and easy for prospective customers.</p>
+            <p><strong>The challenge with the previous pricing experience was not a lack of information, but a lack of clarity.</strong> Users were presented with pricing details, plan ranges, and feature differences, yet it was not always immediately obvious what each tier included or which option best matched their order volume. As a result, the page created <strong>uncertainty at a key decision-making point in the customer journey.</strong></p>
+            <p>Research and stakeholder feedback revealed several recurring issues:</p>
+            <ul>
+              <li>Users misunderstood shipment ranges and pricing bands.</li>
+              <li>Some could not easily identify the right plan tier for their needs.</li>
+              <li>Feature information was being repeated across the cards.</li>
+              <li>Key calls to action, such as “Book a demo,” were too easy to miss.</li>
+              <li>Mobile users experienced friction due to incorrect input behaviour.</li>
+            </ul>
+            <figure class="case-study-inline-image">
+              <img src="../../images/projects/Pricing page/Pricing page_Original.jpg" alt="Original pricing page design" />
+            </figure>
+            <p>Original pricing page design</p>
+          </section>
+
+          <section>
+            <h2>My Role</h2>
+            <p><strong>I owned the UX and UI design strategy for the pricing page redesign.</strong> My responsibilities included research synthesis, information architecture, wireframing, high-fidelity UI design, concept testing, stakeholder collaboration, design documentation, developer handoff, build review, QA, and post-launch UX refinements. The project involved close collaboration with <strong>Product, Marketing, Sales, Engineering, and Flight, our external development partner.</strong></p>
+          </section>
+
+          <section>
+            <h2>Goals</h2>
+            <p><strong>The redesign needed to simplify a multi-tiered pricing model,</strong> reduce ambiguity around plan pricing and shipment ranges, improve visibility of interactive elements, and help users find the right plan more easily. It also needed to support both <strong>self-serve and demo-driven journeys,</strong> while maintaining enough transparency for users who wanted to compare pricing in more detail.</p>
+          </section>
+
+          <section>
+            <h2>Research and Insights</h2>
+            <p><strong>To better understand where users were getting stuck,</strong> I combined several sources of feedback and behavioural insight, including internal team surveys, friends-and-family interviews, Hotjar recordings, user feedback passed on by the sales team, and GA4 observations from slider-on versus slider-off testing.</p>
+            <p><strong>Several patterns emerged very quickly.</strong> Users were confused by the way shipment ranges were written, some struggled to find specific tiers, and the slider lacked enough prominence to guide interaction. There was also evidence that users needed <strong>more explicit plan guidance</strong> rather than simply being shown more pricing detail.</p>
+          </section>
+
+          <section>
+            <h2>Design Challenge</h2>
+            <p><strong>The central challenge was balancing simplicity, transparency, and guidance.</strong></p>
+            <p>At the start of the project, one key hypothesis was that reducing what users saw upfront would reduce decision fatigue. Showing fewer parent plans initially seemed like a sensible way to lower cognitive load and make the page easier to scan. But the design challenge evolved as testing progressed: <strong>simplification alone was not enough if it created uncertainty</strong> about which specific tier applied.</p>
+            <p>In other words, the team was solving for two competing needs at once:</p>
+            <ul>
+              <li>make pricing feel less overwhelming</li>
+              <li>make plan differences more explicit, not less.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Approach and Iteration</h2>
+            <p><strong>I explored multiple structural directions</strong> to test how much pricing information should be shown upfront and how interactive guidance could support decision-making. Early concepts focused on simplifying the visible pricing structure into a <strong>three-card model built around Basic, Advanced, and Enterprise,</strong> supported by a monthly order volume slider and a dynamic recommended-plan state. This direction was intended to reduce cognitive load and help users focus on a smaller set of choices first.</p>
+            <p>The initial thinking behind that approach was:</p>
+            <ul>
+              <li>reduce overwhelm by simplifying the number of visible options</li>
+              <li>use the slider to personalise pricing based on monthly order volume</li>
+              <li>dynamically highlight the most suitable plan</li>
+              <li>let users drill into more detail only when needed.</li>
+            </ul>
+            <p><strong>I then developed multiple prototype options</strong> and shared them with stakeholders for review. The three-card layout was initially preferred for its <strong>clarity, hierarchy, and ease of comparison.</strong> Internal focus group feedback described it as the simplest and easiest structure to follow, while the more expanded option was seen as useful but sometimes visually busier.</p>
+          </section>
+
+          <section>
+            <h2>Concept feedback</h2>
+            <p>Option A (3-card layout) was the most preferred for clarity, simplicity, and easy-to-follow structure.</p>
+            <p>Option B (6- card layout expanded visibility) also had strong positives, particularly because users could see all plan options side by side.</p>
+            <figure class="case-study-inline-image">
+              <img src="../../images/projects/Pricing page/Pricing page_Test A.jpg" alt="Pricing Page Design A" />
+            </figure>
+            <p>Pricing Page Design A</p>
+            <figure class="case-study-inline-image">
+              <img src="../../images/projects/Pricing page/Pricing page_Test B.jpg" alt="Pricing Page Design B" />
+            </figure>
+            <p>Pricing Page Design B</p>
+          </section>
+
+          <section>
+            <h2>Key user and sales feedback</h2>
+            <blockquote>
+              <p>“Got confused by the 0–500 and 501–5000 labels. Seems like you can buy 0 labels for $45 or 5000 for $180.”</p>
+            </blockquote>
+            <blockquote>
+              <p>“In the starter plan, it just said ‘up to 500 labels’—very unclear.”</p>
+            </blockquote>
+            <blockquote>
+              <p>“Two new customers misunderstood the plan limits and pricing tiers. We’re having to manually clarify and upgrade them.”</p>
+            </blockquote>
+            <p><strong>These quotes were especially useful because they highlighted that the issue was not just visual clutter.</strong> The pricing model itself needed to be explained more explicitly, with <strong>clearer hierarchy, clearer labelling, and stronger guidance</strong> around what each tier actually meant.</p>
+            <figure class="case-study-inline-image">
+              <img src="../../images/projects/Pricing page/Pricing page_Feedback.jpg" alt="Pricing page feedback" />
+            </figure>
+          </section>
+
+          <section>
+            <h2>What changed after testing</h2>
+            <p><strong>This is where the project became more interesting from a UX perspective.</strong></p>
+            <p>Although the three-card direction tested well from a structural and visual simplicity standpoint, the first round of testing also revealed that users were still getting confused when too much pricing detail was hidden behind a simplified parent-plan view. Users needed <strong>clearer visibility of the individual pricing tiers</strong> and more explicit plan information to understand what they were actually selecting. This meant the final solution evolved away from a purely simplified “show fewer options” model and toward a clearer presentation of all tiers, with stronger hierarchy, labelling, and guidance. This aligns with the documented confusion around users not being able to locate specific plan tiers, and with the earlier finding that hiding or abstracting pricing detail could create uncertainty rather than reduce it.</p>
+            <p><strong>That shift was important:</strong> instead of treating simplification as “show less,” the final UX treated simplification as “show more clearly.”</p>
+          </section>
+
+          <section>
+            <h2>Final Solution</h2>
+            <p><strong>The final pricing experience combined clearer full-tier visibility with stronger interactive guidance.</strong></p>
+            <p>Rather than relying only on a simplified parent-plan abstraction, the design evolved to show all relevant tiers more clearly so users could understand <strong>plan boundaries, compare pricing more confidently, and avoid misinterpreting what each level included.</strong> At the same time, the redesign retained guidance mechanisms that helped users navigate the complexity more easily.</p>
+            <figure class="case-study-inline-image">
+              <img src="../../images/projects/Pricing page/Pricing page_final result.jpg" alt="Pricing page redesign final result" />
+            </figure>
+          </section>
+
+          <section>
+            <h2>Key design decisions</h2>
+            <p><strong>Clearer tier visibility</strong></p>
+            <p>Because testing showed that hiding tier detail created confusion, the final direction made plan tiers more visible and easier to compare. This addressed the issue of users not being able to find specific tiers and <strong>reduced ambiguity around what pricing applied at different shipment levels.</strong></p>
+            <p><strong>Recommended-plan guidance</strong></p>
+            <p>The pricing experience still used recommendation logic to help guide users toward the most suitable option. <strong>Recommended states were visually highlighted</strong> to support faster decision-making without removing transparency.</p>
+            <p><strong>Improved slider visibility and usability</strong></p>
+            <p><strong>The slider was given stronger visual emphasis</strong> through clearer framing, improved instructional copy, a more obvious interaction pattern, and greater visual prominence. A highlighted container, hover treatment, larger thumb, and clearer wording helped users understand that the slider changed the pricing output.</p>
+            <p><strong>Clearer pricing and volume communication</strong></p>
+            <p>To address confusion around pricing ranges, the design used <strong>clearer plan naming, clearer price-and-volume presentation, and more explicit hierarchy</strong> within the pricing cards. One proposed solution direction included showing both plan options under the parent plan with selectable radio controls so users could more clearly understand the relationship between plan name, price, and shipment volume.</p>
+            <p><strong>Improved mobile input behaviour</strong></p>
+            <p><strong>The input field was updated to use the correct HTML input type,</strong> triggering a numeric keyboard on mobile and preventing letter entry. This reduced input errors and created a smoother experience on smaller devices.</p>
+            <p><strong>Supporting detail below the fold</strong></p>
+            <p>The redesign also maintained supporting content such as comparison detail and FAQs, allowing the top of the page to remain focused while still giving users a path to deeper evaluation. <strong>This supported both usability and SEO goals.</strong></p>
+          </section>
+
+          <section>
+            <h2>Execution</h2>
+            <p><strong>I carried the project through multiple rounds of design and implementation.</strong> This included producing high-fidelity Figma mockups and annotated PDFs, creating detailed development notes, reviewing builds, consolidating stakeholder feedback, managing content population for plan cards and comparison elements, and supporting pre-launch QA and post-launch bug review.</p>
+            <p>The project involved:</p>
+            <ul>
+              <li>4 design concepts</li>
+              <li>5 rounds of revisions</li>
+              <li>3+ rounds of development brief revisions</li>
+              <li>3+ rounds of build review and implementation feedback.</li>
+            </ul>
+            <p><strong>That level of iteration was essential</strong> because the project was not a straight line from problem to solution. The strongest outcome came from <strong>testing assumptions, learning where simplification helped, and then adjusting the design</strong> when user behaviour showed that more explicit visibility was needed.</p>
+          </section>
+
+          <section>
+            <h2>Results and Outcome</h2>
+            <p>The redesign resulted in a pricing experience with:</p>
+            <ul>
+              <li>clearer plan hierarchy</li>
+              <li>better visibility of pricing options</li>
+              <li>improved recommendation and guidance</li>
+              <li>stronger CTA visibility</li>
+              <li>smoother mobile behaviour</li>
+              <li>tighter alignment between the pricing UX and business conversion goals.</li>
+            </ul>
+            <p><strong>The project also generated useful behavioural insight around the slider.</strong></p>
+          </section>
+
+          <section>
+            <h2>Slider on/off testing</h2>
+            <p><strong>From GA4 testing over one month with the slider off and one month with the slider on:</strong></p>
+            <figure class="case-study-inline-image">
+              <img src="../../images/projects/Pricing page/Pricing page_Post Launch Feedback.jpg" alt="Pricing page post launch feedback" />
+            </figure>
+            <table class="case-study-table">
+              <thead>
+                <tr>
+                  <th>Test state</th>
+                  <th>GA4 conversions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Slider OFF</td>
+                  <td>122 conversions</td>
+                </tr>
+                <tr>
+                  <td>Slider ON</td>
+                  <td>157 conversions</td>
+                </tr>
+              </tbody>
+            </table>
+            <p><strong>That directional result suggested that making the slider more visible and usable helped users focus more quickly on relevant pricing,</strong> even if they did not deeply explore every part of the page. The takeaway was that less interaction does not necessarily mean less effectiveness. In this case, stronger guidance appeared to <strong>reduce information overload, shorten time-to-decision, and lower the risk of analysis paralysis.</strong></p>
+          </section>
+
+          <section>
+            <h2>Reflection</h2>
+            <p><strong>This project was not just about making a pricing page look better.</strong> It was about designing for clarity in a <strong>high-intent, high-friction part of the customer journey.</strong></p>
+            <p><strong>One of the most valuable lessons from the project was that simplification is not always about hiding complexity.</strong> Initially, the team explored reducing visible options to make the page feel easier. But testing showed that users still needed to see all tiers more explicitly in order to understand what applied to them. The final outcome was stronger because it responded to that feedback and evolved toward a solution that balanced <strong>clarity, transparency, and guidance</strong> more effectively.</p>
+            <p><strong>It reinforced the importance of validating design assumptions early,</strong> using both qualitative and behavioural feedback, and being willing to shift the solution when user understanding demands it.</p>
+          </section>
+        </section>
+
+        <section class="case-study-return">
+          <a class="button button-secondary case-study-return-link" href="../../index.html#work">
+            <span aria-hidden="true">&larr;</span>
+            <span>Back to projects</span>
+          </a>
+        </section>
+        <section class="contact-section case-study-contact-section" id="footer">
+          <div class="contact-panel">
+            <div class="contact-copy">
+              <p class="eyebrow">Don’t be a stranger</p>
+              <h2>If my work’s your cup of tea, let’s have a chat over one.</h2>
+              <div class="contact-actions">
+                <a class="button button-primary" href="mailto:rebeccaho1908@gmail.com">Email</a>
+                <a class="button button-secondary" href="https://www.linkedin.com/in/rebecca-mak-035a2458/" target="_blank" rel="noreferrer">Linkedin</a>
+              </div>
+            </div>
+            <p class="contact-note">For over a decade, I’ve been turning ideas into experiences and digital things people actually want to engage with. I work across branding, digital design, marketing, UI/UX, and AI-assisted vibe coding and design workflow. I’m happiest where storytelling, design, and technology overlap as that’s usually where the good stuff happens.</p>
+            <div class="contact-mark" aria-hidden="true">
+              <img src="../../images/Favicon.svg" alt="" />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="../../script.js"></script>
+  </body>
+</html>
